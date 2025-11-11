@@ -1,6 +1,18 @@
-node_modules
-.idea
-.vscode
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+# IntelliJ related
+*.iml
+.idea/
+# VS Code related
+.vscode/
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+# MacOS files
 .DS_Store
-dist
-*.log
+# Coverage
+coverage/
